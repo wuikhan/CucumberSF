@@ -23,9 +23,9 @@
 
 				<configuration>
 					<includes>
-						<!-- <exclude>**/**/TestRunner.java</exclude> -->
-						<name>Runner</name>
-						<value>${Runner}</value>
+						<exclude>**/**/TestRunner.java</exclude>
+						<!-- <name>Runner</name>
+						<value>${Runner}</value> -->
 					</includes>
 				</configuration>
 			</plugin>

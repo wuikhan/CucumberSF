@@ -18,13 +18,13 @@ public class LoginTest extends BaseClass {
 
 	@Given("^I open the browser$")
 	public void i_open_the_browser() {
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver");
-		driver = new ChromeDriver();
-	
-//		DesiredCapabilities caps = new DesiredCapabilities();
-//        caps.setJavascriptEnabled(true); // not really needed: JS enabled by default
-//        caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir") + "/Drivers/phantomjs");
-//        driver = new PhantomJSDriver(caps);
+//		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver");
+//		driver = new ChromeDriver();
+	System.out.println(System.getProperty("os.name"));
+		DesiredCapabilities caps = new DesiredCapabilities();
+        caps.setJavascriptEnabled(true); // not really needed: JS enabled by default
+        caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir") + "/Drivers/phantomjs");
+        driver = new PhantomJSDriver(caps);
         
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

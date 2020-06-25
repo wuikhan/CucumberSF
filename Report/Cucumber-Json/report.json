@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1597691198,
+              "duration": 3096554875,
               "status": "passed"
             },
             "line": 6,
@@ -24,8 +24,9 @@
           },
           {
             "result": {
-              "duration": 5647121245,
-              "status": "passed"
+              "duration": 5486020025,
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat stepDefinition.LoginTest.i_go_to_the_application(LoginTest.java:36)\n\tat ✽.When I go to the application(Feature/login.feature:7)\n",
+              "status": "failed"
             },
             "line": 7,
             "name": "I go to the application",
@@ -36,8 +37,7 @@
           },
           {
             "result": {
-              "duration": 38494663,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "I should see the logo",
@@ -48,8 +48,7 @@
           },
           {
             "result": {
-              "duration": 59603742,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
             "name": "I enter \"batch03@codegator.us.qa\" username",
@@ -69,8 +68,7 @@
           },
           {
             "result": {
-              "duration": 72372156,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "I enter \"Pa55word\" password",
@@ -90,8 +88,7 @@
           },
           {
             "result": {
-              "duration": 6254366942,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "I click the login button",
@@ -102,8 +99,7 @@
           },
           {
             "result": {
-              "duration": 22854044,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "I should see the logout link",
@@ -114,8 +110,7 @@
           },
           {
             "result": {
-              "duration": 399350756,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "I quit",

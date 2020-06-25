@@ -149,22 +149,22 @@ formatter.match({
   "location": "LoginTest.i_open_the_browser()"
 });
 formatter.result({
-  "duration": 1597691198,
+  "duration": 3096554875,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_go_to_the_application()"
 });
 formatter.result({
-  "duration": 5647121245,
-  "status": "passed"
+  "duration": 5486020025,
+  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat stepDefinition.LoginTest.i_go_to_the_application(LoginTest.java:36)\n\tat ✽.When I go to the application(Feature/login.feature:7)\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "LoginTest.i_should_see_the_logo()"
 });
 formatter.result({
-  "duration": 38494663,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -176,8 +176,7 @@ formatter.match({
   "location": "LoginTest.I_enter_username(String)"
 });
 formatter.result({
-  "duration": 59603742,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -189,28 +188,24 @@ formatter.match({
   "location": "LoginTest.I_enter_password(String)"
 });
 formatter.result({
-  "duration": 72372156,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginTest.i_click_the_login_button()"
 });
 formatter.result({
-  "duration": 6254366942,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_logout_link()"
 });
 formatter.result({
-  "duration": 22854044,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginTest.i_quit()"
 });
 formatter.result({
-  "duration": 399350756,
-  "status": "passed"
+  "status": "skipped"
 });
 });

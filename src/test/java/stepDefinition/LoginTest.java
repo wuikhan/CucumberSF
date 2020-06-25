@@ -33,6 +33,7 @@ public class LoginTest extends BaseClass {
 	@When("^I go to the application$")
 	public void i_go_to_the_application() {
 		driver.get("https://login.salesforce.com");
+		Assert.assertTrue(false);
 	}
 
 	@Then("^I should see the logo$")

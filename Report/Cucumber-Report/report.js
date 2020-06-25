@@ -149,21 +149,21 @@ formatter.match({
   "location": "LoginTest.i_open_the_browser()"
 });
 formatter.result({
-  "duration": 1988966909,
+  "duration": 1597691198,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_go_to_the_application()"
 });
 formatter.result({
-  "duration": 3681238483,
+  "duration": 5647121245,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_should_see_the_logo()"
 });
 formatter.result({
-  "duration": 113780751,
+  "duration": 38494663,
   "status": "passed"
 });
 formatter.match({
@@ -176,7 +176,7 @@ formatter.match({
   "location": "LoginTest.I_enter_username(String)"
 });
 formatter.result({
-  "duration": 216649620,
+  "duration": 59603742,
   "status": "passed"
 });
 formatter.match({
@@ -189,28 +189,28 @@ formatter.match({
   "location": "LoginTest.I_enter_password(String)"
 });
 formatter.result({
-  "duration": 91805910,
+  "duration": 72372156,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_click_the_login_button()"
 });
 formatter.result({
-  "duration": 5484460972,
+  "duration": 6254366942,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_logout_link()"
 });
 formatter.result({
-  "duration": 7222181830,
+  "duration": 22854044,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_quit()"
 });
 formatter.result({
-  "duration": 116008898,
+  "duration": 399350756,
   "status": "passed"
 });
 });

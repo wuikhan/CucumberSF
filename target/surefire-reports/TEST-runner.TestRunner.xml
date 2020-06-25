@@ -63,7 +63,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given I open the browser" classname="| batch03@codegator.us.qa | Pa55word |" time="0.002"/>
+  <testcase name="Given I open the browser" classname="| batch03@codegator.us.qa | Pa55word |" time="0.001"/>
   <testcase name="When I go to the application" classname="| batch03@codegator.us.qa | Pa55word |" time="0"/>
   <testcase name="Then I should see the logo" classname="| batch03@codegator.us.qa | Pa55word |" time="0"/>
   <testcase name="And I enter &quot;batch03@codegator.us.qa&quot; username" classname="| batch03@codegator.us.qa | Pa55word |" time="0"/>
@@ -71,5 +71,5 @@
   <testcase name="When I click the login button" classname="| batch03@codegator.us.qa | Pa55word |" time="0"/>
   <testcase name="Then I should see the logout link" classname="| batch03@codegator.us.qa | Pa55word |" time="0"/>
   <testcase name="And I quit" classname="| batch03@codegator.us.qa | Pa55word |" time="0"/>
-  <testcase name="| batch03@codegator.us.qa | Pa55word |" classname="| batch03@codegator.us.qa | Pa55word |" time="0"/>
+  <testcase name="| batch03@codegator.us.qa | Pa55word |" classname="| batch03@codegator.us.qa | Pa55word |" time="0.001"/>
 </testsuite>

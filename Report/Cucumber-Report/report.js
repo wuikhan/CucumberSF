@@ -149,14 +149,14 @@ formatter.match({
   "location": "LoginTest.i_open_the_browser()"
 });
 formatter.result({
-  "duration": 3096554875,
+  "duration": 1584749324,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_go_to_the_application()"
 });
 formatter.result({
-  "duration": 5486020025,
+  "duration": 4144369539,
   "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat stepDefinition.LoginTest.i_go_to_the_application(LoginTest.java:36)\n\tat ✽.When I go to the application(Feature/login.feature:7)\n",
   "status": "failed"
 });

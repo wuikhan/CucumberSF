@@ -33,21 +33,21 @@ formatter.match({
   "location": "LoginTest.i_open_the_browser()"
 });
 formatter.result({
-  "duration": 3610144034,
+  "duration": 2673804928,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_go_to_the_application()"
 });
 formatter.result({
-  "duration": 4515785798,
+  "duration": 4908031666,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_should_see_the_home_page()"
 });
 formatter.result({
-  "duration": 1799760,
+  "duration": 1417471,
   "status": "passed"
 });
 });

@@ -20,7 +20,7 @@ public class LoginTest extends BaseClass {
 	public void i_open_the_browser() {
 //		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver");
 //		driver = new ChromeDriver();
-	System.out.println(System.getProperty("os.arch"));
+
 		DesiredCapabilities caps = new DesiredCapabilities();
         caps.setJavascriptEnabled(true); // not really needed: JS enabled by default
         caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir") + "/Drivers/phantomjs");

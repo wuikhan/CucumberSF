@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.001944">
+<testcase classname="Test login functionality" name="As a valid user I should be able to login to the application" time="0.001944">
+<failure message="java.lang.AssertionError&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#10;&#9;at stepDefinition.LoginTest.i_should_see_the_logo(LoginTest.java:23)&#10;&#9;at ✽.Then I should see the logo(Feature/login.feature:8)&#10;"><![CDATA[Given I open the browser....................................................passed
+When I go to the application................................................passed
+Then I should see the logo..................................................failed
+And I enter valid username..................................................skipped
+And I enter valid password..................................................skipped
+When I click the login button...............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinition.LoginTest.i_should_see_the_logo(LoginTest.java:23)
+	at ✽.Then I should see the logo(Feature/login.feature:8)
+]]></failure>
+</testcase>
+</testsuite>

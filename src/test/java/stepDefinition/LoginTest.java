@@ -67,4 +67,8 @@ public class LoginTest extends BaseClass {
 	public void i_quit() {
 	    driver.quit();
 	}
+	@Then("^I should see the home page$")
+	public void i_should_see_the_home_page()  {
+		Assert.assertTrue(true);
+	}
 }

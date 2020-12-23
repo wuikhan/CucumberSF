@@ -1,7 +1,7 @@
 Feature: Test login functionality
   As a valid user , I should be able to login to the application.
 
-  @Test
+  @Test @Regression
   Scenario Outline: As a valid user I should be able to login to the application
     Given I open the browser
     When I go to the application
@@ -14,7 +14,7 @@ Feature: Test login functionality
 
     Examples: 
       | username                | password |
-      | batch03@codegator.us.qa | Pa55word |
+      | batch03@codegator.us.qa | pa55word |
 
   Scenario: As a valid user I should be able to login to the applications
     Given I open the browser

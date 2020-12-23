@@ -37,7 +37,7 @@
 
 				<configuration>
 					<systemPropertyVariables>
-						<cucumber.options> ${SUITETORUN} </cucumber.options>
+						<cucumber.options> ${SuiteToRun} </cucumber.options>
 					</systemPropertyVariables>
 					<includes>
 						<exclude>**/**/${Runner}.java</exclude>
